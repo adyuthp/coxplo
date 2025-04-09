@@ -43,6 +43,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Porsha+Richela&display=swap');
 
 :root {
     --bgcolor: #F1FFFD;
@@ -65,7 +66,7 @@ p
     padding: 0;
 }
 a,h2,h3,h4,h5,h6{
-    color: #000;
+    color: #04171B;
     margin: 0;
 }
 a{
@@ -77,9 +78,11 @@ h1{
 }
 h2{
     font-size: 60px;
+    font-family: 'Porsha Richela', sans-serif !important;
 }
 h3{
     font-size: 26px;
+    font-family: 'Porsha Richela', sans-serif !important;
 }
 h4{
     font-size: 24px;
@@ -2084,4 +2087,106 @@ footer ul.shaps-img li:nth-child(3) {
 .icon-share li i,.accordion-contact h4 a,.pricing,.tag > a,.blog a,.blog img,.count-style,.how-do-stap  i,
 .team:after,.team span,.team a,.team h4,ul.chek li img ,.widget-title ul li a,footer a,.presenting i:after{
     transition: .4s all;
+}
+
+/* Mobile responsiveness adjustments */
+@media (max-width: 768px) {
+    /* General adjustments */
+    body, html {
+        font-size: 14px;
+    }
+
+    .hero-section {
+        padding-top: 100px;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .hero-text img.heroimg {
+        position: static;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar-links li {
+        padding-right: 0;
+    }
+
+    .get-a-quote {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .get-a-quote input[type="text"],
+    .get-a-quote input[type="email"],
+    .get-a-quote input[type="number"] {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .team-section .heading h2 {
+        font-size: 40px;
+    }
+
+    .team img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .clients-section .heading h2 {
+        font-size: 32px;
+    }
+
+    .clients {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer-try h2 {
+        font-size: 36px;
+    }
+
+    .footer-try p {
+        font-size: 14px;
+    }
+
+    .subscribe-text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .subscribe-text h3 {
+        font-size: 24px;
+    }
+
+    .subscribe-text #subscribe-form input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .subscribe-text #subscribe-form .btn {
+        position: static;
+        margin-top: 10px;
+    }
 }
