@@ -546,6 +546,11 @@ header .btn:after {
     font-weight: 400;
     padding-bottom: 30px;
 }
+@media (max-width: 768px) {
+    .get-a-quote h6 {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+}
 .get-a-quote {
     z-index: 11;
     /* margin-bottom: 40px; */
