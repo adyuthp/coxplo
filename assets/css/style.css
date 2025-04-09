@@ -600,7 +600,8 @@ header .btn:after {
 }
 .get-a-quote img { 
     position: absolute;
-    right: 34px;
+    top: 18px;
+    right: 22px;
     animation: top-bottom 2s infinite;
 }
 .get-a-quote .btn {
