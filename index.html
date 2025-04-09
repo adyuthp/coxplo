@@ -18,6 +18,16 @@
    <link rel="stylesheet" href="assets/css/style.css">
    <!-- responsive -->
    <link rel="stylesheet" href="assets/css/responsive.css"> 
+   <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <style>
+     body {
+       font-family: 'Questrial', sans-serif;
+     }
+     h2, h3 {
+       font-family: inherit; /* Retain the default or previously set font */
+     }
+   </style>
  </head>
 <body>
 <!-- preloader -->
@@ -38,11 +48,11 @@
     <div class="top-bar">
       <div class="logo">
         <a href="#">
-          <img alt="logo" src="assets/img/logo.png">
+          <img alt="logo" src="assets/img/logo.svg">
         </a>
       </div>
-      <nav class="navbar">
-          <!-- <ul class="navbar-links">
+       <!-- <nav class="navbar">
+          <ul class="navbar-links">
             <li class="navbar-dropdown">
               <a href="#about"> About </a>
             </li>
@@ -58,20 +68,25 @@
             <li class="navbar-dropdown">
               <a href="#blog">blog</a>
             </li>
-          </ul> -->
-        </nav>
-      <a href="callto:+12344502086"><i class="flaticon-smart-phone"></i><b> +91 8089 44 88 08</b></a>
+          </ul>
+        </nav> -->
+      <!-- <a href="https://wa.me/918089448808"><i class="flaticon-smart-phone"> </i> Contacts</a> -->
+      <!-- <a href="https://wa.me/918089448808" target="_blank"> </i>Contact us</a> -->
+      <a href="https://wa.me/918089448808" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i> &nbsp; Contact us
+      </a>
     </div>
   </div>
 </header>
 <!-- header end -->
-<section class="hero-section" style="background-image: url(assets/img/);">
+<section class="hero-section">
   <div class="container">
     <div class="row ">
       <div class="col-lg-7 ">
         <div class="hero-text sec-title-animation animation-style2">
           <span class="title-animation">Be Discovered. Be Remembered.</span>
-          <h2 class="title-animation">Go Digital in <br> Minutes. <br> Stay Connected <br> Forever! </h2>
+          <!-- <h2 class="title-animation">Go Digital in <br> Minutes. <br> Stay Connected <br> Forever! </h2> -->
+          <h2 class="title-animation">Connect instantly, <br> Let your customers Explore your brand!</h2>
           <div class="d-flex listing">
             <p>QR-ious how it works?</p>
           </div>  
@@ -90,7 +105,7 @@
         </div> -->
       </div>
       <div class="col-lg-5">
-        <form role="form" class="get-a-quote" id="contact-form" method="post">
+        <form role="form" class="get-a-quote contact-form" id="submit-form" action="https://script.google.com/macros/s/AKfycbwNqvUckwwr5edMA1Z8i3ppGJk-8RpQNI8jELG_aMqxqc1Zfaa_7W_1MWmGbXZI_ZwA/exec">
           <img src="assets/img/fom-img.png" alt="img"> 
             <h3>Get Early Access
             </h3>
@@ -103,6 +118,19 @@
             <!--   -->
         </form> 
       </div>
+      <!-- <div class="col-lg-5">
+        <form role="form" class="get-a-quote" id="contact-form" method="post">
+          <img src="assets/img/fom-img.png" alt="img"> 
+            <h3>Get Early Access
+            </h3>
+            <h6>Because your business deserves better</h6> 
+            <input type="text" name="Full Name" placeholder="Your Name" required=""> 
+            <input type="text" name="Company Name" placeholder="Company" required="">
+            <input type="email" name="Email Address" placeholder="Email Address" required=""> 
+            <input type="number" name="Phone No" placeholder="Mobile Number" required="">
+            <button type="submit" class="button btn"><span><span>Submit</span></span></button>
+        </form> 
+      </div> -->
     </div>
   </div>
   <!-- <ul class="shaps-img">
@@ -113,6 +141,8 @@
     <li><img src="assets/img/shaps-3.png" alt="img"></li> 
   </ul> -->
 </section> 
+<footer style="background-color: #04171B; padding: 10px; text-align: center; font-size: 14px;">  <p style="color: #ffffffc9;">&copy; 2025 Coxplo. All Rights Reserved.</p>
+</footer>
 <!-- <div class="gap">
   <div class="container">
     <div class="heading sec-title-animation animation-style2">
@@ -853,93 +883,35 @@
     <li><img src="assets/img/shaps-1.png" alt="img"></li>
     <li><img src="assets/img/shaps-6.png" alt="img"></li> 
   </ul>
-</section> -->
-<!-- <footer class="gap no-bottom" style="background-image: url(assets/img/footer.jpg);">
-  <div class="container">
-    <div class="footer-try">
-      <div>
-        <h2>Start Your Business and Achieve Goals</h2> 
-        <p>Great and strong landing page made to enhance the marketer's workflow.</p>
-      </div>
-        <a href="#" class="button btn"><span><span>Try 14 Days for Free</span></span></a> 
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="footer-logo">
-          <img src="assets/img/logo.png" alt="img">
-          <p>component library to build your own components  of UI. Reuse existing Hero, sections component lie your own components. </p>
-          <ul class="social-media">
-            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="flaticon-twitter"></i></a></li>
-            <li><a href="#"><i class="flaticon-instagram"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-12">
-        <div class="widget-title">
-          <h3>Useful Links</h3>
-          <ul>
-            <li><i class="fa-solid fa-angles-right"></i><a href="about.html">About Us</a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="#">Timeline </a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="#">Image Gallery </a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="contact.html">Contact Us</a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="faq.html">Faq’s</a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="#">Quality Management</a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="#">Health &amp; Safety </a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="#">Environmental</a></li>
-            <li><i class="fa-solid fa-angles-right"></i><a href="#">Environmental</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="widget-title">
-          <h3>Contact Us</h3>
-          <div class="get-in-touch">
-            <div><i class="flaticon-map-location"></i></div>
-            <div>
-              <span>Phone No:</span>
-              <h6><a href="callto:+15554361747">+1 0109 -1812-347</a></h6>
-            </div>
-          </div>
-          <div class="get-in-touch">
-            <div><i class="flaticon-iphone"></i></div>
-            <div>
-              <span>Email Address:</span>
-              <h6><a href="mailto:business@domain.com">business@domain.com</a></h6>
-            </div>
-          </div>
-          <div class="get-in-touch mb-0">
-            <div><i class="flaticon-mail-inbox-app"></i></div>
-            <div>
-              <span class="pb-0">12/7 new town, 245x Town 1214 Street, United State</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="all-rights">
-      <p>© 2024 websole by Websole. All Rights Reserved.</p>
-      <div class="review"> 
-        <img alt="img" src="assets/img/google-w.png">
-         <ul class="star">
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-          <li><i class="fa-solid fa-star"></i></li>
-        </ul>
-        <h6>(5.0) </h6>
-      </div>
-    </div>
-  </div>
-  <ul class="shaps-img">
-    <li><img src="assets/img/shaps-4.png" alt="img"></li> 
-    <li><img src="assets/img/shaps-1.png" alt="img"></li>
-    <li><img src="assets/img/shaps-2.png" alt="img"></li> 
-  </ul>
-</footer> -->
-<!-- <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div> -->
+</section>
+<footer style="background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 14px; color: #6c757d;">
+  <p>&copy; 2024 Coxplo. All Rights Reserved.</p>
+  <p>
+    <a href="#about" style="color: #6c757d; text-decoration: none; margin-right: 10px;">About</a>
+    <a href="#services" style="color: #6c757d; text-decoration: none; margin-right: 10px;">Services</a>
+    <a href="#contact" style="color: #6c757d; text-decoration: none;">Contact</a>
+  </p>
+</footer>
 <!-- jQuery -->
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbwNqvUckwwr5edMA1Z8i3ppGJk-8RpQNI8jELG_aMqxqc1Zfaa_7W_1MWmGbXZI_ZwA/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Thank You! Your Early Access Request Submitted Successfully")
+              window.location.reload()
+              // window.location.href="https://coxplo.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
 <script src="assets/js/jquery-3.6.0.min.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script>  
 <script src="assets/js/jquery.fancybox.min.js"></script>

@@ -81,7 +81,7 @@ h2{
     font-family: 'Porsha Richela', sans-serif !important;
 }
 h3{
-    font-size: 26px;
+    font-size: 36px !important;
     font-family: 'Porsha Richela', sans-serif !important;
 }
 h4{
@@ -139,7 +139,7 @@ input[type=number]::-webkit-inner-spin-button {
     fill: #fff;
     height: auto;
 }
-.top-bar a i {
+.top-bar a i {git pull origin main --rebase
     margin-right: 10px;
     color: #fff;
     border-radius: 50%;
@@ -527,14 +527,14 @@ header .btn:after {
     padding-right: 4px;
 }
 /* 5. get-a-quote */ 
-form#contact-form h3 {
+.contact-form h3 {
     font-size: 40px;
     font-weight: bold;
     line-height: 46px;
-    padding-bottom: 6px;
+    padding-bottom: 6px !important; 
 }
 .get-a-quote h6 {
-    color: #04171B000;
+    color: #04171B;
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 30px;
@@ -1246,6 +1246,9 @@ ul.icon-share {
     width: 56px;
     height: 56px;
 }
+
+
+
 .center.review {
     justify-content: center;
     margin-top: 60px;
@@ -1805,7 +1808,7 @@ ul.social-media a:hover i {
     color: var(--bgcolor);
 }
 footer {
-    padding-bottom: 40px !important;
+    padding-bottom: 10px !important;
 } 
 /* 22. all-rights */
 .all-rights {
@@ -2189,4 +2192,5 @@ footer ul.shaps-img li:nth-child(3) {
         position: static;
         margin-top: 10px;
     }
+    
 }
