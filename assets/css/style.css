@@ -548,7 +548,7 @@ header .btn:after {
 }
 @media (max-width: 768px) {
     .get-a-quote h6 {
-        font-size: 14px; /* Adjust font size for mobile */
+        font-size: 14px !important; /* Adjust font size for mobile */
     }
 }
 .get-a-quote {
